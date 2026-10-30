@@ -8,7 +8,7 @@ public class CambioColor1 : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.C))
         {
             spriteRenderer.color = Color.red;
         }
